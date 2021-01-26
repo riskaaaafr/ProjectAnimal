@@ -103,6 +103,7 @@ public class User  implements java.io.Serializable {
             return "Home";
         }
         error = true;
+		System.out.println("test");
         return "index";
 
     }
